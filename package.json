@@ -1,0 +1,22 @@
+{
+  "name": "tinyurl-service",
+  "version": "1.0.0",
+  "description": "Small Express + TypeScript URL shortener with a business layer and mock data",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
